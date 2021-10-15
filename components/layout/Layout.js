@@ -1,9 +1,9 @@
-import NavBar from '../layout/Layout'
+import NavBar from '../navBar/NavBar'
 
 export default function Layout({ children }) {
     return (
       <div>
-        <Navbar />
+        <NavBar />
         {children}
         {/* <Footer /> */}
       </div>
