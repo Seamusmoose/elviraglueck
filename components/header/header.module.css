@@ -1,0 +1,26 @@
+.headerContainer {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  grid-template-areas: 
+  "image title"
+  "image title"
+  "image descrip"
+  ;
+}
+
+.image {
+grid-area: image;
+background-color: thistle;
+}
+
+.title {
+grid-area: title;
+background-color: tomato;
+}
+
+.descrip {
+grid-area: descrip;
+background-color: turquoise;
+}

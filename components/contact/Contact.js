@@ -1,7 +1,7 @@
+import styles from "./contact.module.css";
+
 export default function Contact() {
-    return (
-        <div>
-            here is the contact Component
-        </div>
-    )
-};
+  return (
+    <div className={styles.contactContainer}>here is the contact Component</div>
+  );
+}
