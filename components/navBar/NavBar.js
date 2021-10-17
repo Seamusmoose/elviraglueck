@@ -1,12 +1,13 @@
-import styles from './navBar.module.css'
-import Link from 'next/Link'
+import styles from "./navBar.module.css";
+import Link from "next/link";
 
 export default function NavBar(params) {
   return (
-  <nav className={styles.navContainer}>
-    <ul className={styles.linkItems}>
+    <nav className={styles.navContainer}>
+      <ul className={styles.linkItems}>
         <li>
-          <Link href="/">
+          <Link 
+          href="/">
             <a>Home</a>
           </Link>
         </li>
@@ -22,7 +23,6 @@ export default function NavBar(params) {
           </Link>
         </li>
       </ul>
-
-  </nav>
-  )
+    </nav>
+  );
 }
