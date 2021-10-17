@@ -1,19 +1,17 @@
 .headerContainer {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
   background-color: white;
   display: grid;
-  grid-template-columns: (5, repeat(1fr));
+  grid-template-columns: repeat(5, minmax(150px, 70vh));
   grid-template-areas:
-    "image image image title title"
-    "image image image title title"
-    "image image image title title";
+    "image image title title title"
+    "image image title title title"
+    "image image title title title";
 }
 
 .image {
   grid-area: image;
   background-color: white;
-  /* position: relative; */
   display: block;
 }
 
