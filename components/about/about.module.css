@@ -1,4 +1,51 @@
 .aboutContainer {
-    background-color: rgb(213,225,223);
-    height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(213, 225, 223);
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.2fr;
+  grid-template-rows: repeat(5, 20vh);
+  grid-template-areas:
+    ". ."
+    "wel paraOne"
+    "wel paraTwo"
+    "wel paraThree"
+    ". .";
+}
+
+.welcome {
+  font-size: 1.2rem;
+  grid-area: wel;
+  color: rgb(114, 130, 127);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraOne {
+  color: rgb(114, 130, 127);
+  grid-area: paraOne;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraTwo {
+  color: rgb(114, 130, 127);
+  grid-area: paraTwo;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraThree {
+  color: rgb(114, 130, 127);
+  grid-area: paraThree;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

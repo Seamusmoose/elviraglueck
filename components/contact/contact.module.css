@@ -1,4 +1,29 @@
 .contactContainer {
+  font-family: "Poppins", sans-serif;
   background-color: white;
-  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 70vh));
+  grid-template-areas:
+    "image image title title title"
+    "image image title title title"
+    "image image title title title";
+}
+
+.image {
+  grid-area: image;
+  background-color: white;
+  display: block;
+}
+
+.title {
+  grid-area: title;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.centerCol {
+  text-align: center;
 }

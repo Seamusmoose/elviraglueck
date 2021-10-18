@@ -23,3 +23,30 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.fadeInOne {
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fadeInTwo {
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .fadeInThree {
+    animation: fadeInAnimation ease 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  

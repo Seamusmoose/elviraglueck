@@ -9,9 +9,10 @@ export default function Header() {
         <Image src={idImage} alt="profileImage" layout="responsive" />
       </div>
       <div className={styles.title}>
-        <h1>Elvira Glück</h1>
-        <h2>Therapie | Supervision | Coaching</h2>
-        <p>Wilkommen! Welcome!</p>
+        <h1 className={styles.fadeInOne}>Elvira Glück</h1>
+        <h2 className={styles.fadeInTwo}>Therapie | Supervision | Coaching</h2>
+        <p className={styles.fadeInThree}>Wilkommen! </p>
+        <p className={styles.fadeInThree}>Welcome!</p>
       </div>
     </div>
   );
