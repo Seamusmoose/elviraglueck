@@ -24,6 +24,14 @@
   flex-direction: column;
 }
 
-.centerCol {
+.contactGer {
   text-align: center;
+  font-weight: 900;
+  font-size: 1.3rem;
+  line-height: 8px;
+}
+
+.contactEng {
+  text-align: center;
+  line-height: 8px;
 }

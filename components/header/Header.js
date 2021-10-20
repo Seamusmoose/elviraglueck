@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import idImage from "../../public/example.webp";
+import idImage from "../../public/bridgeexample.jpeg";
 import Image from "next/image";
 
 export default function Header() {

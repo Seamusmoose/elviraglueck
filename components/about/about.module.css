@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .paraTwo {
@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .paraThree {
@@ -47,5 +47,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.ger {
+  font-weight: 900;
+  font-size: 1.3rem;
+  line-height: 25px;
+  margin: 0 0;
+}
+
+.eng {
+  margin: 8px 0;
 }

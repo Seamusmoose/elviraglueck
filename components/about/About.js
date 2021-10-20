@@ -11,30 +11,35 @@ export default function About() {
       </div>
 
       <div className={styles.paraOne}>
-        <p>
+        <h1 className={styles.ger}>
           Ich bin systemische Therapeutin, Supervisorin und Coacherin seit über
           20 Jahren.
-        </p>
-        <p>
+        </h1>
+        <p className={styles.eng}>
           I am a systemic therapist, supervisor and coach with more than 20
           years' experience.{" "}
         </p>
       </div>
 
       <div className={styles.paraTwo}>
-        <p>
+        <h1 className={styles.ger}>
           Einzel- und Familientherapie, als auch berufliche Fragestellungen sind
           meine Schwerpunkte.
-        </p>
-        <p>
+        </h1>
+        <p className={styles.eng}>
           Individual and family therapy as well as professional issues are my
           speciality.
         </p>
       </div>
 
       <div className={styles.paraThree}>
-        <p>Sie können mit mir Deutsch, Englisch und Hebräisch sprechen.</p>
-        <p>You can speak German, English or Hebrew with me.</p>
+        <h1 className={styles.ger}>
+          {" "}
+          Sie können mit mir Deutsch, Englisch und Hebräisch sprechen.
+        </h1>
+        <p className={styles.eng}>
+          You can speak German, English or Hebrew with me.
+        </p>
       </div>
     </div>
   );
