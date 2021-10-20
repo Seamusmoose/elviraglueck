@@ -25,28 +25,41 @@
 }
 
 .fadeInOne {
-    animation: fadeInAnimation ease 8s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  animation: fadeInAnimation ease 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
   }
-  @keyframes fadeInAnimation {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  .fadeInTwo {
-    animation: fadeInAnimation ease 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+}
+
+.fadeInTwo {
+  animation: fadeInAnimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fadeInThree {
+  animation: fadeInAnimation ease 12s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .headerContainer {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 70vh));
+    grid-template-areas:
+      "title title title title title"
+      "title title title title title"
+      "title title title title title";
   }
-  
-  .fadeInThree {
-    animation: fadeInAnimation ease 12s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  
+}
