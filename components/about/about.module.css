@@ -1,6 +1,6 @@
 .aboutContainer {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(213, 225, 223);
+  background-color: rgb(215, 225, 213);
   color: black;
   display: grid;
   grid-template-columns: repeat(2, minmax(150px, 100vh)) 0.2fr;
@@ -58,6 +58,7 @@
 }
 
 .eng {
+  font-size: 1rem;
   margin: 8px 0;
 }
 
