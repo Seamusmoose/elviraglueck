@@ -52,11 +52,13 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .headerContainer {
-    height: 100vh;
+    font-size: 1.4em;
+    height: 185vh;
+    width: 125vh;
     font-family: "Poppins", sans-serif;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(5, minmax(150px, 70vh));
+    grid-template-columns: repeat(4, minmax(150px, 100vh));
     grid-template-areas:
       "title title title title title"
       "title title title title title"

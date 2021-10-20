@@ -1,4 +1,5 @@
 .aboutContainer {
+  padding: 3em;
   font-family: "Poppins", sans-serif;
   background-color: rgb(215, 225, 213);
   color: black;
@@ -29,7 +30,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .paraTwo {
@@ -38,7 +39,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .paraThree {
@@ -47,7 +48,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .ger {
@@ -64,6 +65,40 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .aboutContainer {
-    width: 100vh;
+    width: 110vh;
+    height: 150vh;
+
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(215, 225, 213);
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 100vh)) 0.4fr;
+    grid-template-rows: repeat(6, minmax(150px, 20vh));
+    grid-template-areas:
+      ". ."
+      "wel wel"
+      ". ."
+      "paraOne paraOne"
+      "paraTwo paraTwo"
+      "paraThree paraThree";
+  }
+
+  .welcome {
+    padding-top: 2em;
+    font-size: 1.6rem;
+    padding-bottom: 3em;
+  }
+
+  .ger {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 30px;
+    margin: 0 0;
+  }
+
+  .eng {
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin: 0 0;
   }
 }

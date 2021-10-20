@@ -38,6 +38,8 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .contactContainer {
+    height: 150vh;
+    width: 125vh;
     font-family: "Poppins", sans-serif;
     background-color: white;
     display: grid;
@@ -46,5 +48,18 @@
       "title title title title title"
       "title title title title title"
       "title title title title title";
+  }
+
+  .contactGer {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .contactEng {
+    text-align: center;
+    line-height: 10px;
+    font-size: 1.3rem;
   }
 }
