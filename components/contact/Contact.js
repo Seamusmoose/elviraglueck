@@ -13,7 +13,7 @@ export default function Contact() {
           <p className={styles.contactGer}>Vielen Dank für Ihren Besuch!</p>
           <p className={styles.contactEng}>Thank you for your visit!</p>
         </div>
-        <div>
+        <div id="contact">
           <p className={styles.contactGer}>
             Sie können auch eine Mail an info@elviraglueck.com schicken.
           </p>

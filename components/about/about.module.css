@@ -1,17 +1,17 @@
 .aboutContainer {
+  height: 100vh;
   padding: 3em;
+  padding-top: 10em;
   font-family: "Poppins", sans-serif;
   background-color: rgb(215, 225, 213);
   color: black;
   display: grid;
   grid-template-columns: repeat(2, minmax(150px, 100vh)) 0.2fr;
-  grid-template-rows: repeat(5, minmax(150px, 20vh));
+  grid-template-rows: repeat(3, minmax(150px, 20vh));
   grid-template-areas:
-    ". ."
     "wel paraOne"
     "wel paraTwo"
-    "wel paraThree"
-    ". .";
+    "wel paraThree";
 }
 
 .welcome {

@@ -10,7 +10,7 @@ export default function About() {
         <h2>____</h2>
       </div>
 
-      <div className={styles.paraOne}>
+      <div id="about" className={styles.paraOne}>
         <h1 className={styles.ger}>
           Ich bin systemische Therapeutin, Supervisorin und Coacherin seit über
           20 Jahren.

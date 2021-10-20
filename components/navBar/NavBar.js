@@ -5,20 +5,19 @@ export default function NavBar(params) {
   return (
     <nav className={styles.navContainer}>
       <ul className={styles.linkItems}>
-        <li>
-          <Link 
-          href="/">
+        {/* <li>
+          <Link href="/">
             <a>Home</a>
           </Link>
-        </li>
+        </li> */}
         <li>
-          <Link href="/#aboutMe">
+          <Link href="/#about">
             <a>About</a>
           </Link>
         </li>
 
         <li>
-          <Link href="/contact">
+          <Link href="/#contact">
             <a>Contact</a>
           </Link>
         </li>
